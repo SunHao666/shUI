@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_tab">
+        <item>基础UI</item>
+        <item>中级UI</item>
+        <item>高级UI</item>
+        <item>自定义UI</item>
+    </string-array>
+    <string-array name="home_list">
+        <item>Style、Theme</item>
+        <item>RecyclerView</item>
+        <item>WebView</item>
+        <item>Button</item>
+    </string-array>
+
+    <string-array name="low_recycler_list">
+        <item>Linear</item>
+        <item>Grid</item>
+        <item>StaggeredGrid</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

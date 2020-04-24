@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/rv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/textview_common"
+        tools:text="2020夏季最新款"
+        android:padding="5dp"/>
+
+</LinearLayout>

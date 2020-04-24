@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/rv_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/textview_common"
+        tools:text="2020夏季最新款"
+        android:layout_toRightOf="@id/rv_img"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/tv_time"
+        style="@style/textview_common"
+        android:text="2020/12/12"
+        android:layout_toRightOf="@id/rv_img"
+        android:layout_below="@id/tv_content"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/textview_common"
+        android:text="已关闭"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/btn_click"
+        style="@style/wrap_content"
+        android:text="click"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/rv_img"
+        />
+
+    <Button
+        android:id="@+id/btn_hide"
+        style="@style/wrap_content"
+        android:text="click"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/rv_img"
+        />
+</RelativeLayout>

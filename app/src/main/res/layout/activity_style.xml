@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/texthome"
+        android:text="text_style"/>
+
+    <View
+        style="@style/line_1_gray"/>
+
+    <View
+        style="@style/line_1_gray"
+        android:background="@android:color/holo_green_light"/>
+    <View
+        style="@style/line_1_gray"
+        android:background="@android:color/darker_gray"/>
+
+    <View
+        style="@style/line_1_gray"
+        android:background="@color/colorAccent"
+        android:layout_height="@android:dimen/app_icon_size"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorAccent"
+        />
+</LinearLayout>
